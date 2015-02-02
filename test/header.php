@@ -63,7 +63,7 @@
     <body class="container" id="home">
         <div class="row"><!--row-->
 
-            <header id="header">
+            <header id="header"><--header-->
 
                 <div class="top">
                     <h1><a href="/">Evolve Home Solar</a></h1>
