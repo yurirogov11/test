@@ -60,7 +60,7 @@
 
     </head>
 
-    <body class="container" id="home">
+    <body class="container" id="home"><--container-->
         <div class="row"><!--row-->
 
             <header id="header">
