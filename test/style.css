@@ -1,0 +1,143 @@
+/*
+Theme Name: evosolar111111111
+Description: Custom theme for "evolvesolar.com"
+Author: AdaptivityPro
+Author URI: http://www.adaptivitypro.com/
+Version: 1.0
+*/
+
+/* HOME PAGE ------------------*/
+
+/* SLIDER  --------------------------- */
+.bx-wrapper {
+    margin: -20px auto 24px;
+}
+.bx-wrapper .bx-viewport {
+    border: none;
+    left: 0px;
+    box-shadow: none;
+    padding-bottom: 16px;
+    background-color: transparent;
+    min-height: 77px;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 21px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    height: 6px;
+    width: 6px;
+    background: none repeat scroll 0 0 #56b6d8;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover {
+
+    background: none repeat scroll 0 0 orange;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: none repeat scroll 0 0 white;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    height: 79px;
+    margin-left: -16px;
+    margin-top: -49px;
+    width: 50px;
+}
+.bx-wrapper .bx-prev,
+.bx-wrapper .bx-next {
+    background-image: url("img/arrow.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.bx-wrapper .bx-next {
+    background-image: url("img/arrow-right.png");
+    background-position: left center;
+    right: -8px;
+}
+.bx-wrapper .bx-prev:hover{
+    background-position: right center;
+    width: 60px;
+}
+.bx-wrapper .bx-next:hover{
+    background-position: left center;
+    width: 60px;
+}
+
+#homepage-slider {
+    top: -15px;
+}
+#homepage-slider .caption{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+}
+#homepage-slider .slider-item {
+    left: 0px;
+}
+#homepage-slider .slider-item img {
+    display: inline;
+}
+#homepage-slider .caption-bg {
+    background-image: url("img/slider-caption-bg.jpg");
+    background-repeat: repeat-y;
+    height: 84px;
+    /*margin-top: -246px;*/
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    bottom: 0px;
+    text-align: center;
+}
+
+#homepage-slider .caption-bg-top {
+    background-image: url("img/slider-caption-bg-top.png");
+    background-repeat: no-repeat;
+    height: 25px;
+    margin-bottom: 38px;
+    opacity: 0.6;
+}
+#homepage-slider .caption-bg-bottom {
+    background-image: url("img/slider-caption-bg-bottom.png");
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 100%;
+    /*margin-top: -188px;*/
+    z-index: 20;
+    position: absolute;
+    bottom: 0px;
+}
+#homepage-slider .caption-button {
+    background-image: url("img/slider-caption-button.png");
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    top: -83px;
+    width: 45px;
+    height: 46px;
+    z-index: 20;
+    background-size: cover;
+    cursor: pointer;
+}
+#homepage-slider .slider-text p{
+    margin: 0;
+    padding: 0;
+}
+
+#homepage-slider .caption-text {
+    margin: auto;
+    position: absolute;
+    top: 27px;
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+}
+#homepage-slider .slider-text {
+    margin: auto;
+    position: absolute;
+    /*top: -285px;*/
+    width: 100%;
+    z-index: 20;
+    text-align: center;
+}
